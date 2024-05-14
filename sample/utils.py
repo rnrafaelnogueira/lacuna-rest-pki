@@ -11,8 +11,7 @@ def get_restpki_client():
     # ==========================================================================
     #                    >>> PASTE YOUR ACCESS TOKEN BELOW <<<
     # ==========================================================================
-    restpki_access_token = 'ruqkIgY805uZm9H5SiDbGJY_It3mMNvQkoGOhYD-TZ8XC56Z8ypNHTjd5Glbuw7RRY8zvRaacpV3hMlFrHlrQz6JFK0xV-LC3xdkGrexGcjizP7MLjQ7ZpCs5-pUJYPwLAK_vhU2XV7Dk-DjKpQHx50TB7wvYqp-Lr0jV9iMok8zcOQZZKZiQjKEm_0wp5Na5LCYHe9nnsRtUEB0u9q2vFYU_lGR8OGRJvpyjTpmL0CClHUS_U5kKO1MxtABdncQYP-_MYO-MbRzkA4jjpSXNKES9kanfAndtBq3GZlg5n3WIX2P8I4tToBj_gQv3Ax32JsZN7dUTCaaLI3lK-9sdPzCH7LQ2YuAmE-D2a_wOxW_TYACSYtF3fu2wmZFEd9_G07uRXxgQfeNXoJA6yjFC_D9d0dHU-C4iM64I1ZcyeX5uOQqlrgQ1ci94Bp91FggDVIk6bGe8iid4a2DCqhYidGpgNkVFGy62HU2yncsS7a0t22D8pA42mZNfc7jo8iu-xowWQ'
-    #restpki_access_token = current_app["restpki_access_token"]
+    restpki_access_token = current_app.config['RESTPKI_ACCESS_TOKEN']
     #
     # Throw exception if token is not set (this check is here just for the sake
     # of newcomers, you can remove it)
