@@ -1,0 +1,13 @@
+{
+    "name": "lacuna-rest-pki",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "lacuna-rest-pki",
+    "workspaceFolder": "/workspace",
+    "settings": {
+        "python.pythonPath": "/usr/local/bin/python",
+        "python.defaultInterpreterPath": "/usr/local/bin/python"
+    },
+    "extensions": ["ms-python.python", "ms-python.vscode-pylance", "ms-python.debugpy"],
+    "overrideCommand": true,
+    "remoteUser": "root"
+}
